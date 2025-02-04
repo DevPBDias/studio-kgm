@@ -3,19 +3,54 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --primary: #0d060c;
+  --secondary: #f8f1f8;
+  --terciary: #e0ff4f;
+  --padding-content: 240px;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--secondary);
+  background: var(--primary);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: none;
+}
+
+button {
+  color: var(--primary);
+  background: var(--terciary);
+  font-weight: 700;
+  font-family: "Crimson Text", serif;
+  font-size: clamp(0.9rem, 4vw, 1.2rem);
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 12px;
+}
+
+p,
+span,
+li,
+input {
+  font-family: "Crimson Text", serif;
+}
+
+h1,
+h2 {
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: var(--terciary);
+}
+
+h3,
+h4,
+h5 {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  line-height: 1.2;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
 }
