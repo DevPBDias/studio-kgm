@@ -8,7 +8,10 @@ function Burger() {
 
   return (
     <>
-      <div onClick={() => setCallNav(!callNav)} className="bg-transparent">
+      <div
+        onClick={() => setCallNav(!callNav)}
+        className="bg-transparent lg:hidden"
+      >
         {!callNav ? (
           <AlignCenter size={24} color="#f8f1f8" />
         ) : (
