@@ -25,8 +25,8 @@ button {
   font-weight: 700;
   font-family: "Crimson Text", serif;
   font-size: clamp(0.9rem, 4vw, 1.2rem);
-  padding-inline: 1rem;
-  padding-block: 0.5rem;
+  padding-inline: 0.8rem;
+  padding-block: 0.4rem;
   border-radius: 12px;
 }
 
@@ -40,13 +40,20 @@ input {
 h1,
 h2 {
   font-size: clamp(2.2rem, 4vw, 4rem);
-  line-height: 1.4;
+  line-height: 1.2;
   font-weight: 700;
   font-family: "Playfair Display", serif;
   color: var(--terciary);
 }
 
-h3,
+h3 {
+  font-size: clamp(1rem, 4vw, 3rem);
+  line-height: 1.2;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  color: var(--terciary);
+}
+
 h4,
 h5 {
   font-size: clamp(1rem, 2vw, 1.5rem);
