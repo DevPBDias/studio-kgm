@@ -7,9 +7,9 @@ import { testimonials } from "@/constants/testimonials";
 const Testimonials = () => {
   return (
     <Container>
-      <section className="relative w-full lg:w-3/4 py-28 flex flex-col justify-center items-center gap-24">
+      <section className="relative w-full 2xl:w-3/4 py-28 px-4 lg:px-16 flex flex-col justify-center items-center gap-12 lg:gap-24">
         <TextTestimonials />
-        <div className="flex flex-row flex-wrap justify-between items-center w-full">
+        <div className="flex flex-row flex-wrap justify-center 2xl:justify-between items-center w-full gap-8 2xl:gap-0">
           {testimonials.map((data) => (
             <CardTestimonial key={data.id} testimonials={data} />
           ))}

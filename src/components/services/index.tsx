@@ -7,9 +7,9 @@ import CircleAbst from "./CircleAbst";
 const Services = () => {
   return (
     <Container>
-      <section className="relative w-full lg:w-3/4 py-28 flex flex-col justify-center items-center gap-24">
+      <section className="relative w-full lg:px-16 2xl:w-3/4 py-14 lg:py-28 px-4 flex flex-col justify-center items-center gap-12 lg:gap-24">
         <TextService />
-        <div className="flex flex-row flex-wrap justify-center items-center w-full gap-12">
+        <div className="flex flex-row flex-wrap justify-center items-center w-full gap-6 lg:gap-12">
           {services.map((data) => (
             <CardService key={data.id} service={data} />
           ))}

@@ -9,46 +9,50 @@ import circleAbst from "@/assets/images/circleWhite.png";
 const CasesWork = () => {
   return (
     <Container>
-      <section className="w-full lg:w-3/4 py-28 flex flex-col justify-center items-start gap-24">
+      <section className="w-full 2xl:w-3/4 py-28 flex flex-col justify-center items-start gap-12 lg:gap-24 px-4 lg:px-12">
         <h3 className="uppercase">cases de sucesso</h3>
-        <section className="w-full flex flex-col justify-center items-center gap-4">
-          <div className="flex flex-row w-full justify-start items-start gap-3">
+        <section className="w-full flex flex-col justify-center items-center gap-12 lg:gap-4">
+          <div className="flex flex-col lg:flex-row w-full justify-start items-start gap-3">
             <Image
               src={ole}
               alt="olemidia website"
-              className="w-[500px] h-80 object-cover hover:scale-105"
+              className="w-full 2xl:w-[500px] 2xl:h-80 object-cover hover:scale-105"
             />
-            <p className="mt-2 border-2 border-[var(--secondary)] px-3 py-1 rounded-xl hover:bg-[var(--secondary)] hover:text-[var(--primary)] font-bold w-96">
+            <p className="w-full lg:mt-2 border-2 border-[var(--secondary)] px-3 py-1 rounded-xl hover:bg-[var(--secondary)] hover:text-[var(--primary)] font-bold lg:w-96">
               Sites modernos e personalizados, projetados para fortalecer
               marcas.
             </p>
             <Image
               src={circleAbst}
               alt="abstract circle"
-              className="animate-[spin_8s_ease_infinite] ml-auto"
+              className="animate-[spin_8s_ease_infinite] ml-auto hidden lg:block"
             />
           </div>
-          <div className="w-full flex flex-row-reverse justify-between items-end gap-3">
-            <div className="flex flex-col justify-center items-end gap-3">
-              <Image src={max} alt="max website" className="hover:scale-105" />
-              <p className="w-80 mr-2 border-2 border-[var(--secondary)] px-3 py-1 rounded-xl hover:bg-[var(--secondary)] hover:text-[var(--primary)] font-bold">
+          <div className="w-full flex flex-col lg:flex-row-reverse justify-between items-end gap-12 lg:gap-3">
+            <div className="flex flex-col justify-center items-end gap-3 w-full lg:w-1/2 2xl:w-full">
+              <Image
+                src={max}
+                alt="max website"
+                className="w-full 2xl:w-[500px] 2xl:h-80 hover:scale-105"
+              />
+              <p className="w-full lg:w-80 lg:mr-2 border-2 border-[var(--secondary)] px-3 py-1 rounded-xl hover:bg-[var(--secondary)] hover:text-[var(--primary)] font-bold">
                 Experiências intuitivas, que encantam usuários e aumentam
                 conversões.
               </p>
             </div>
-            <div className="ml-52 flex flex-row  justify-center items-end gap-3">
+            <div className="2xl:ml-52 lg:w-1/2 2xl:w-full flex flex-col md:flex-row justify-center items-end gap-3">
               <Image
                 src={ftb}
                 alt="ftb post"
                 className="-mb-3 hover:scale-105"
               />
-              <p className="w-80 border-2 border-[var(--secondary)] px-3 py-1 rounded-xl hover:bg-[var(--secondary)] hover:text-[var(--primary)] font-bold">
+              <p className="w-full md:w-80 border-2 border-[var(--secondary)] px-3 py-1 rounded-xl hover:bg-[var(--secondary)] hover:text-[var(--primary)] font-bold">
                 Designs gráficos impactantes, criados para destacar sua
                 comunicação.
               </p>
             </div>
           </div>
-          <div className="absolute w-96 flex flex-col justify-center items-center p-6">
+          <div className="hidden absolute w-96 2xl:flex flex-col justify-center items-center p-6">
             <div className="w-full flex justify-start items-start">
               <Image src={arrow} alt="arrow " className="" />
             </div>

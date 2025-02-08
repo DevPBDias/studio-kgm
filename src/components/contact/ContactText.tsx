@@ -4,11 +4,11 @@ import Footer from "../footer";
 
 const ContactText = () => {
   return (
-    <section className="absolute w-full lg:w-3/4 pt-24 flex flex-col justify-center items-center gap-24">
+    <section className="absolute w-full 2xl:w-3/4 pt-24 px-4 lg:px-16 flex flex-col justify-center items-center gap-24">
       <h3 className="uppercase w-full">fale conosco</h3>
-      <div className="flex flex-row w-full justify-between items-center">
-        <Image src={contact} alt="footer image" />
-        <div className="flex flex-col w-1/2 justify-start items-start gap-12">
+      <div className="flex flex-col md:flex-row w-full justify-between items-center gap-12 lg:gap-0">
+        <Image src={contact} alt="footer image" className="md:w-1/2" />
+        <div className="flex flex-col w-full md:w-1/2 justify-start items-start gap-12">
           <p className="text-lg">
             Tem um projeto em mente? Quer transformar sua presença digital e
             destacar sua marca no mercado? Estamos prontos para te ajudar!

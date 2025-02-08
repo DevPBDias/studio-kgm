@@ -6,7 +6,11 @@ import Navbar from "./Navbar";
 const Header = () => {
   return (
     <header className="w-full flex flex-row justify-between items-center">
-      <Image src={logo} alt="" className="h-10 w-40 lg:h-20 lg:w-80" />
+      <Image
+        src={logo}
+        alt=""
+        className="h-10 w-40 lg:h-14 lg:w-60 2xl:h-20 2xl:w-80"
+      />
       <Navbar />
       <Burger />
     </header>

@@ -1,6 +1,6 @@
 const AboutText = () => {
   return (
-    <div className="w-full lg:w-1/2 flex flex-col justify-center items-start gap-9 lg:gap-16">
+    <div className="w-full 2xl:w-1/2 flex flex-col justify-center items-start gap-9 lg:gap-16">
       <h3 className="uppercase">Nosso Estúdio</h3>
       <p className="text-lg">
         Somos um estúdio especializado no desenvolvimento de sites modernos e
@@ -19,7 +19,7 @@ const AboutText = () => {
         <br />
         🚀 Vamos levar seu negócio para o próximo nível?
       </p>
-      <button className="font-bold w-full lg:w-fit shadow-md shadow-[var(--terciary)] hover:bg-[var(--primary)] hover:text-[var(--terciary)] border-2 border-[var(--terciary)]">
+      <button className="font-bold w-full hidden lg:flex lg:w-fit shadow-md shadow-[var(--terciary)] hover:bg-[var(--primary)] hover:text-[var(--terciary)] border-2 border-[var(--terciary)]">
         Vamos começar?
       </button>
     </div>

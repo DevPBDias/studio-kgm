@@ -8,7 +8,7 @@ interface CardProps {
 
 const CardTestimonial = ({ testimonials }: CardProps) => {
   return (
-    <div className="flex flex-row justify-center items-start gap-3">
+    <div className="flex flex-col lg:flex-row justify-center items-start gap-3">
       <Image
         src={testimonials.image}
         alt="quote icon"
