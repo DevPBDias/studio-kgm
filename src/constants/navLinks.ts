@@ -1,38 +1,31 @@
 export interface INavLinks {
-  id: number;
   name: string;
-  path: string;
+  link: string;
 }
 
 export const navLinks: INavLinks[] = [
   {
-    id: 1,
-    name: "Home",
-    path: "#hero",
+    name: "Início",
+    link: "#hero",
   },
   {
-    id: 2,
     name: "Nosso Estúdio",
-    path: "#studio",
+    link: "#studio",
   },
   {
-    id: 3,
     name: "Cases de Sucesso",
-    path: "#cases",
+    link: "#cases",
   },
   {
-    id: 4,
     name: "Depoimentos",
-    path: "#studio",
+    link: "#studio",
   },
   {
-    id: 5,
     name: "Serviços",
-    path: "#services",
+    link: "#services",
   },
   {
-    id: 6,
     name: "Fale Conosco",
-    path: "#contact",
+    link: "#contact",
   },
 ];

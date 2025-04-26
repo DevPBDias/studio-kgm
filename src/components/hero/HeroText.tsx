@@ -1,19 +1,17 @@
-import Header from "../header";
+import { TextGenerateEffect } from "../ui/TextEffect";
 
 const HeroText = () => {
   return (
-    <section className="absolute z-10 w-full h-full px-4 2xl:w-3/4 flex flex-col justify-between items-center">
-      <Header />
+    <section
+      id="hero"
+      className="absolute z-10 w-full h-full px-4 2xl:w-3/4 flex flex-col justify-between items-center"
+    >
       <section className="w-full h-full flex flex-col justify-center items-center md:w-2/3 2xl:w-1/2 gap-9">
         <div className="w-full flex flex-col justify-center items-center gap-4">
-          <h1 className="text-[var(--secondary)] w-full text-center">
-            Marcas fortes têm
-            <strong className="text-[var(--terciary)]">
-              {" "}
-              presença digital{" "}
-            </strong>
-            de alto nível!
-          </h1>
+          <TextGenerateEffect
+            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            words="Marcas fortes têm presença digital de alto nível!"
+          />
           <h4 className="text-center font-normal opacity-75 w-full md:w-3/4">
             Criamos sites com design sofisticado e moderno para fortalecer sua
             marca e impulsionar seus resultados.
