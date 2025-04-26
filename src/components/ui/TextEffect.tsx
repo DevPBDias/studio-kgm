@@ -36,7 +36,7 @@ export const TextGenerateEffect = ({
               className={` ${
                 idx > 2 && idx < 5
                   ? "text-[var(--terciary)]"
-                  : "dark:text-white text-black"
+                  : "text-[var(--secondary)]"
               } opacity-0`}
             >
               {word}{" "}
@@ -50,7 +50,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-bold", className)}>
       <div className="my-4">
-        <div className=" dark:text-white text-black leading-snug tracking-wide">
+        <div className="text-[var(--secondary)] leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>
