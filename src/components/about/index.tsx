@@ -1,16 +1,18 @@
 import Container from "../container/Container";
-import Gif from "./Gif";
 import AboutText from "./Text";
+import MagicBtn from "../ui/MagicBtn";
+import Title from "./Title";
 
 const About = () => {
   return (
     <Container>
-      <section className="w-full 2xl:w-3/4 pb-28 px-4 lg:px-16 flex flex-col lg:flex-row justify-center items-center gap-6 2xl:gap-24">
+      <section
+        id="about"
+        className="bg-[var(--primary)] w-full 2xl:w-3/4 mb-28 px-4 lg:px-16 flex flex-col justify-center items-center gap-6 2xl:gap-12 mt-96 py-6  rounded-lg shadow-md"
+      >
+        <Title />
         <AboutText />
-        <Gif />
-        <button className="font-bold w-full flex justify-center items-center lg:hidden lg:w-fit shadow-md shadow-[var(--terciary)] hover:bg-[var(--primary)] hover:text-[var(--terciary)] border-2 border-[var(--terciary)]">
-          Vamos começar?
-        </button>
+        <MagicBtn title="Vamos começar?" />
       </section>
     </Container>
   );

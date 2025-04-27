@@ -4,6 +4,7 @@
 
 :root {
   --primary: #0d060c;
+  --primary-light: #2a1326;
   --secondary: #f8f1f8;
   --terciary: #e0ff4f;
   --padding-content: 240px;
@@ -43,7 +44,6 @@ h2 {
   line-height: 1.2;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: var(--terciary);
 }
 
 h3 {
@@ -51,13 +51,12 @@ h3 {
   line-height: 1.2;
   font-family: "Crimson Text", serif;
   font-weight: 700;
-  color: var(--terciary);
 }
 
 h4,
 h5 {
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
   line-height: 1.2;
   font-family: "Crimson Text", serif;
-  font-weight: 700;
+  font-weight: 500;
 }

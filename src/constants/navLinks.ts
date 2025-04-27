@@ -9,16 +9,16 @@ export const navLinks: INavLinks[] = [
     link: "#hero",
   },
   {
-    name: "Nosso Estúdio",
-    link: "#studio",
-  },
-  {
     name: "Cases de Sucesso",
     link: "#cases",
   },
   {
+    name: "Nosso Estúdio",
+    link: "#about",
+  },
+  {
     name: "Depoimentos",
-    link: "#studio",
+    link: "#testimonials",
   },
   {
     name: "Serviços",

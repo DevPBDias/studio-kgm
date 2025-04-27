@@ -1,27 +1,35 @@
+import Image from "next/image";
+import img from "@/assets/images/about-img.jpg";
+
 const AboutText = () => {
   return (
-    <div className="w-full 2xl:w-1/2 flex flex-col justify-center items-start gap-9 lg:gap-16">
-      <h3 className="uppercase">Nosso Estúdio</h3>
-      <p className="text-lg">
-        Somos um estúdio especializado no desenvolvimento de sites modernos e
-        designs estratégicos que elevam marcas e geram resultados reais.
+    <div className="w-full flex flex-col md:flex-row justify-center items-center gap-9 lg:gap-24">
+      <p className="font-normal w-full">
+        NA Agência KGM, acreditamos que grandes marcas não se constroem apenas
+        com presença online. Elas se destacam pela experiência que proporcionam.
         <br />
         <br />
-        Acreditamos que um site não deve ser apenas bonito, mas também
-        funcional, intuitivo e preparado para converter visitantes em clientes.
-        Combinamos tecnologia, design e estratégia para criar soluções
-        personalizadas que atendem às necessidades de cada negócio.
+        Criamos sites modernos e estrategicamente pensados para transformar sua
+        presença digital em um verdadeiro diferencial competitivo. Unimos design
+        sofisticado, performance de alta qualidade e estratégias focadas em
+        conversão para entregar projetos que cativam, conectam e impulsionam
+        resultados reais.
         <br />
         <br />
-        Nosso compromisso é entregar sites profissionais, rápidos e otimizados,
-        garantindo que sua marca tenha uma presença digital forte e competitiva.
+        Cada detalhe do seu site é projetado para refletir a essência da sua
+        marca e posicioná-la onde ela merece estar: à frente.
         <br />
         <br />
-        🚀 Vamos levar seu negócio para o próximo nível?
+        🚀 Se você busca mais do que um site, busca impacto — nós somos o
+        parceiro certo para essa jornada.
       </p>
-      <button className="font-bold w-full hidden lg:flex lg:w-fit shadow-md shadow-[var(--terciary)] hover:bg-[var(--primary)] hover:text-[var(--terciary)] border-2 border-[var(--terciary)]">
-        Vamos começar?
-      </button>
+      <picture className="w-full h-full">
+        <Image
+          src={img}
+          alt=""
+          className="w-full h-full object-cover rounded-lg"
+        />
+      </picture>
     </div>
   );
 };

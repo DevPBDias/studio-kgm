@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { ITestimonials } from "@/constants/testimonials";
 import quote from "@/assets/images/Quote.png";
+import { ITestimonials } from "@/constants/testimonials";
 
 interface CardProps {
   testimonials: ITestimonials;
@@ -12,7 +12,7 @@ const CardTestimonial = ({ testimonials }: CardProps) => {
       <Image
         src={testimonials.image}
         alt="quote icon"
-        className="w-20 h-20 rounded-full p-1 object-cover border border-[var(--secondary)]"
+        className="w-24 h-24 rounded-full  object-cover border"
       />
       <div className="flex flex-col justify-start items-start gap-6 p-6 w-80 h-80 bg-[var(--secondary)] rounded-xl shadow-sm shadow-[var(--terciary)] hover:scale-105">
         <Image src={quote} alt="quote icon" className="" />

@@ -20,14 +20,6 @@ export const testimonials: ITestimonials[] = [
   },
   {
     id: 2,
-    name: "Sandra",
-    image: sandra,
-
-    message:
-      "Desde o primeiro contato até o lançamento do site, o processo foi impecável. Recomendo de olhos fechados!",
-  },
-  {
-    id: 3,
     name: "Olé Mídia",
     image: ole,
     message:
