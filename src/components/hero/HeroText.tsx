@@ -6,9 +6,9 @@ const HeroText = () => {
   return (
     <section
       id="hero"
-      className="absolute z-10 w-full h-full px-4 2xl:w-3/4 flex flex-col justify-between items-center"
+      className="relative z-10 w-full px-4 2xl:w-3/4 flex flex-col justify-center items-center"
     >
-      <section className="w-full h-full flex flex-col justify-center items-center md:w-2/3 2xl:w-1/2 gap-9">
+      <section className="w-full flex flex-col justify-center items-center md:w-2/3 2xl:w-1/2 gap-9">
         <div className="w-full flex flex-col justify-center items-center gap-4">
           <TextGenerateEffect
             className="text-center text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl"

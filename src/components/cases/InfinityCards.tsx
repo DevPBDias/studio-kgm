@@ -1,102 +1,44 @@
-"use client";
+import { InfiniteSlider } from "@/components/ui/infinite-slider";
+import ole from "@/assets/cases/ole.png";
+import max from "@/assets/cases/max.png";
+import personal from "@/assets/cases/Personal.png";
+import ftbWebsite from "@/assets/cases/Ftb-principal.png";
+import pomodoro from "@/assets/cases/angular-todo-pomodoro.png";
+import Trybetunes from "@/assets/cases/Trybetunes.jpg";
+import indiApp from "@/assets/cases/Nelore App.png";
+import Magick from "@/assets/cases/Magick.png";
+import Image from "next/image";
 
-import { cn } from "@/lib/utils";
-import Image, { StaticImageData } from "next/image";
-import React, { useEffect, useState } from "react";
+export default function InfiniteSliderHorizontal() {
+  const imageCards = [
+    ole,
+    max,
+    personal,
+    pomodoro,
+    indiApp,
+    Trybetunes,
+    ftbWebsite,
+    Magick,
+  ];
 
-export const InfiniteMovingCards = ({
-  items,
-  direction = "left",
-  speed = "fast",
-  pauseOnHover = true,
-  className,
-}: {
-  items: StaticImageData[];
-  direction?: "left" | "right";
-  speed?: "fast" | "normal" | "slow";
-  pauseOnHover?: boolean;
-  className?: string;
-}) => {
-  const containerRef = React.useRef<HTMLDivElement>(null);
-  const scrollerRef = React.useRef<HTMLUListElement>(null);
-
-  useEffect(() => {
-    addAnimation();
-  }, []);
-  const [start, setStart] = useState(false);
-  function addAnimation() {
-    if (containerRef.current && scrollerRef.current) {
-      const scrollerContent = Array.from(scrollerRef.current.children);
-
-      scrollerContent.forEach((item) => {
-        const duplicatedItem = item.cloneNode(true);
-        if (scrollerRef.current) {
-          scrollerRef.current.appendChild(duplicatedItem);
-        }
-      });
-
-      getDirection();
-      getSpeed();
-      setStart(true);
-    }
-  }
-  const getDirection = () => {
-    if (containerRef.current) {
-      if (direction === "left") {
-        containerRef.current.style.setProperty(
-          "--animation-direction",
-          "forwards"
-        );
-      } else {
-        containerRef.current.style.setProperty(
-          "--animation-direction",
-          "reverse"
-        );
-      }
-    }
-  };
-  const getSpeed = () => {
-    if (containerRef.current) {
-      if (speed === "fast") {
-        containerRef.current.style.setProperty("--animation-duration", "20s");
-      } else if (speed === "normal") {
-        containerRef.current.style.setProperty("--animation-duration", "40s");
-      } else {
-        containerRef.current.style.setProperty("--animation-duration", "80s");
-      }
-    }
-  };
   return (
-    <div
-      ref={containerRef}
-      className={cn(
-        "scroller relative z-20 max-w-full h-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_30%,white_70%,transparent)]",
-        className
-      )}
-    >
-      <ul
-        ref={scrollerRef}
-        className={cn(
-          "flex w-max min-w-full shrink-0 flex-nowrap gap-4 py-4",
-          start && "animate-scroll",
-          pauseOnHover && "hover:[animation-play-state:paused]"
-        )}
-      >
-        {items.map((item, idx) => (
-          <li
-            className="relative w-[550px] shrink-0 max-w-full h-full rounded-2xl px-8 py-6"
-            key={idx}
+    <div className="absolute top-[90dvh] left-1/2 -translate-x-1/2 z-10 pb-4">
+      <InfiniteSlider gap={32} speed={40} className="py-4">
+        {imageCards.map((project, i) => (
+          <div
+            key={i}
+            className="flex items-center justify-center rounded-xl overflow-hidden shadow-lg w-[380px] h-[220px] lg:w-[480px] lg:h-[320px]"
           >
-            <picture>
-              <Image
-                src={item}
-                alt=""
-                className="h-full max-w-[590px] object-cover"
-              />
-            </picture>
-          </li>
+            <Image
+              src={project.src || "/placeholder.svg"}
+              alt={project.src}
+              width={380}
+              height={220}
+              className="object-cover w-full h-full"
+            />
+          </div>
         ))}
-      </ul>
+      </InfiniteSlider>
     </div>
   );
-};
+}

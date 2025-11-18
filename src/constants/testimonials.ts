@@ -25,4 +25,11 @@ export const testimonials: ITestimonials[] = [
     message:
       "Agora minha marca tem um site moderno e profissional, que realmente transmite credibilidade.",
   },
+  {
+    id: 3,
+    name: "Sandra Lima",
+    image: sandra,
+    message:
+      "Agora minha marca tem um site moderno e profissional, que realmente transmite credibilidade.",
+  },
 ];

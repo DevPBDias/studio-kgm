@@ -1,6 +1,3 @@
-import Image from "next/image";
-import img from "@/assets/images/about-img.jpg";
-
 const AboutText = () => {
   return (
     <div className="w-full flex flex-col md:flex-row justify-center items-center gap-9 lg:gap-24">
@@ -20,16 +17,9 @@ const AboutText = () => {
         marca e posicioná-la onde ela merece estar: à frente.
         <br />
         <br />
-        🚀 Se você busca mais do que um site, busca impacto — nós somos o
+        🚀 Se você busca mais do que um site, busca impacto, nós somos o
         parceiro certo para essa jornada.
       </p>
-      <picture className="w-full h-full">
-        <Image
-          src={img}
-          alt=""
-          className="w-full h-full object-cover rounded-lg"
-        />
-      </picture>
     </div>
   );
 };

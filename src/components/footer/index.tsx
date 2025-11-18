@@ -6,7 +6,10 @@ import { ArrowUpRightIcon } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="relative w-full pt-20" id="contact">
+    <footer
+      className="relative w-full pt-20 lg:mt-32 mb-8 flex flex-col items-center px-4 lg:px-[15%]"
+      id="contact"
+    >
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <Image
           src={gridFooter}
@@ -31,7 +34,7 @@ const Footer = () => {
           position="right"
         />
       </div>
-      <div className="flex flex-col-reverse gap-3 mt-16 md:flex-row justify-between items-center">
+      <div className="w-full flex flex-col-reverse gap-3 mt-16 md:flex-row justify-between items-center ">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2025 DevPBDias
         </p>

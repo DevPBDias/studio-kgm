@@ -1,31 +1,24 @@
-import { cn } from "@/lib/utils";
-import { Spotlight } from "../ui/Spotlight";
+import { DottedGlowBackground } from "@/components/ui/dotted-glow-background";
 import HeroText from "./HeroText";
 
-export function Hero() {
+export default function Hero() {
   return (
-    <div className="relative flex h-screen w-full items-center justify-center bg-[var(--primary)]">
-      <div>
-        <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="white"
+    <section className="relative min-h-screen w-full overflow-hidden flex flex-col items-center justify-center">
+      <div className="absolute inset-0" style={{ backgroundColor: "#0d060c" }}>
+        <DottedGlowBackground
+          gap={20}
+          radius={2.5}
+          color="rgba(42, 19, 38, 0.6)"
+          glowColor="rgba(224, 255, 79, 0.5)"
+          opacity={0.8}
+          backgroundOpacity={0.1}
+          speedMin={0.3}
+          speedMax={0.8}
+          speedScale={1.2}
         />
-        <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="purple"
-        />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
-      <div
-        className={cn(
-          "absolute inset-0",
-          "[background-size:40px_40px]",
-          "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
-          "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
-        )}
-      />
-      <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-[var(--primary)]"></div>
+
       <HeroText />
-    </div>
+    </section>
   );
 }

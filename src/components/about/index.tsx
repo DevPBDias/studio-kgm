@@ -1,21 +1,130 @@
-import Container from "../container/Container";
 import AboutText from "./Text";
-import MagicBtn from "../ui/MagicBtn";
 import Title from "./Title";
 
-const About = () => {
+export default function AboutSection() {
   return (
-    <Container>
-      <section
-        id="about"
-        className="bg-[var(--primary)] w-full 2xl:w-3/4 mb-28 px-4 lg:px-16 flex flex-col justify-center items-center gap-6 2xl:gap-12 mt-96 py-6  rounded-lg shadow-md"
-      >
-        <Title />
-        <AboutText />
-        <MagicBtn title="Vamos começar?" />
-      </section>
-    </Container>
-  );
-};
+    <section
+      id="about"
+      className="relative w-full py-24 md:py-32 px-4 overflow-hidden mt-52"
+      style={{ backgroundColor: "#0d060c" }}
+    >
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "linear-gradient(to bottom, rgba(13, 6, 12, 0.7), rgba(13, 6, 12, 0.9))",
+        }}
+      />
 
-export default About;
+      <div className="max-w-7xl mx-auto relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="space-y-6 text-center lg:text-left">
+            <div className="inline-block">
+              <span
+                className="text-sm uppercase tracking-wider font-semibold px-4 py-2 rounded-full"
+                style={{
+                  backgroundColor: "rgba(224, 255, 79, 0.1)",
+                  color: "#e0ff4f",
+                }}
+              >
+                Sobre Nós
+              </span>
+            </div>
+
+            <Title />
+            <AboutText />
+
+            <div className="pt-4">
+              <div className="grid grid-cols-3 gap-4 sm:gap-6">
+                <div className="text-center">
+                  <div
+                    className="text-3xl sm:text-4xl font-bold mb-2"
+                    style={{ color: "#e0ff4f" }}
+                  >
+                    500+
+                  </div>
+                  <div
+                    className="text-xs sm:text-sm"
+                    style={{ color: "#f8f1f8", opacity: 0.7 }}
+                  >
+                    Projetos
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div
+                    className="text-3xl sm:text-4xl font-bold mb-2"
+                    style={{ color: "#e0ff4f" }}
+                  >
+                    50+
+                  </div>
+                  <div
+                    className="text-xs sm:text-sm"
+                    style={{ color: "#f8f1f8", opacity: 0.7 }}
+                  >
+                    Clientes
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div
+                    className="text-3xl sm:text-4xl font-bold mb-2"
+                    style={{ color: "#e0ff4f" }}
+                  >
+                    10+
+                  </div>
+                  <div
+                    className="text-xs sm:text-sm"
+                    style={{ color: "#f8f1f8", opacity: 0.7 }}
+                  >
+                    Anos
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-4 sm:space-y-6">
+            {[
+              {
+                title: "Design Moderno",
+                description:
+                  "Interfaces elegantes e intuitivas que encantam usuários",
+              },
+              {
+                title: "Tecnologia Avançada",
+                description:
+                  "Soluções robustas com as melhores ferramentas do mercado",
+              },
+              {
+                title: "Suporte Dedicado",
+                description:
+                  "Equipe sempre disponível para garantir seu sucesso",
+              },
+            ].map((feature, i) => (
+              <div
+                key={i}
+                className="p-5 sm:p-6 rounded-2xl transition-all hover:scale-[1.02] cursor-pointer"
+                style={{
+                  backgroundColor: "rgba(42, 19, 38, 0.4)",
+                  border: "1px solid rgba(224, 255, 79, 0.2)",
+                }}
+              >
+                <h3
+                  className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3"
+                  style={{ color: "#e0ff4f" }}
+                >
+                  {feature.title}
+                </h3>
+                <p
+                  className="text-sm sm:text-base leading-relaxed"
+                  style={{ color: "#f8f1f8", opacity: 0.8 }}
+                >
+                  {feature.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
