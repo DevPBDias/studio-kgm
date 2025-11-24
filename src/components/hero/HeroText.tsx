@@ -11,10 +11,10 @@ const HeroText = () => {
       <section className="w-full flex flex-col justify-center items-center md:w-2/3 2xl:w-1/2 gap-9">
         <div className="w-full flex flex-col justify-center items-center gap-4">
           <TextGenerateEffect
-            className="text-center text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl"
+            className="text-center text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl font-playfair"
             words="Marcas fortes têm presença digital de alto nível!"
           />
-          <h5 className="text-center font-normal w-full md:w-4/5">
+          <h5 className="text-center font-normal w-full md:w-4/5 font-crimson">
             Sites com design sofisticado e moderno que não apenas impressionam,
             mas também impulsionam seus resultados e fortalecem sua marca.
           </h5>

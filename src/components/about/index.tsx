@@ -38,7 +38,7 @@ export default function AboutSection() {
               <div className="grid grid-cols-3 gap-4 sm:gap-6">
                 <div className="text-center">
                   <div
-                    className="text-3xl sm:text-4xl font-bold mb-2"
+                    className="text-3xl sm:text-4xl font-bold mb-2 font-playfair"
                     style={{ color: "#e0ff4f" }}
                   >
                     500+
@@ -52,7 +52,7 @@ export default function AboutSection() {
                 </div>
                 <div className="text-center">
                   <div
-                    className="text-3xl sm:text-4xl font-bold mb-2"
+                    className="text-3xl sm:text-4xl font-bold mb-2 font-playfair"
                     style={{ color: "#e0ff4f" }}
                   >
                     50+
@@ -66,7 +66,7 @@ export default function AboutSection() {
                 </div>
                 <div className="text-center">
                   <div
-                    className="text-3xl sm:text-4xl font-bold mb-2"
+                    className="text-3xl sm:text-4xl font-bold mb-2 font-playfair"
                     style={{ color: "#e0ff4f" }}
                   >
                     10+
@@ -109,7 +109,7 @@ export default function AboutSection() {
                 }}
               >
                 <h3
-                  className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3"
+                  className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 font-playfair"
                   style={{ color: "#e0ff4f" }}
                 >
                   {feature.title}

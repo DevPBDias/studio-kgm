@@ -48,7 +48,7 @@ const Testimonials = () => {
             </div>
 
             <h2
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight font-playfair"
               style={{ color: "#f8f1f8" }}
             >
               O Que Nossos{" "}
@@ -93,7 +93,7 @@ const Testimonials = () => {
                     className="w-12 h-12 rounded-full object-cover mb-4"
                   />
                   <h4
-                    className="text-lg sm:text-xl font-bold"
+                    className="text-lg sm:text-xl font-bold font-playfair"
                     style={{ color: "#e0ff4f" }}
                   >
                     {testimonials[activeIndex].name}

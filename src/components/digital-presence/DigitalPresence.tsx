@@ -39,7 +39,7 @@ export default function DigitalPresenceSection() {
             </div>
 
             <h2
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-balance"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-balance font-playfair"
               style={{ color: "#f8f1f8" }}
             >
               Por que seu negócio{" "}
@@ -72,8 +72,8 @@ export default function DigitalPresenceSection() {
                 }}
               >
                 <div
-                  className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2"
-                  style={{ color: "#e0ff4f" }}
+                  className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 font-playfair"
+ style={{ color: "#e0ff4f" }}
                 >
                   {stat.number}
                 </div>
@@ -113,7 +113,7 @@ export default function DigitalPresenceSection() {
 
                   {/* Title */}
                   <h3
-                    className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300"
+                    className="text-xl sm:text-2xl font-bold mb-3 transition-colors duration-300 font-playfair"
                     style={{ color: "#f8f1f8" }}
                   >
                     {benefit.title}
@@ -148,7 +148,7 @@ export default function DigitalPresenceSection() {
             }}
           >
             <h3
-              className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4"
+              className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 font-playfair"
               style={{ color: "#f8f1f8" }}
             >
               Pronto para{" "}

@@ -36,7 +36,7 @@ export default function FAQSection() {
             </div>
 
             <h2
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 font-playfair"
               style={{ color: "#f8f1f8" }}
             >
               Perguntas{" "}
@@ -140,7 +140,7 @@ export default function FAQSection() {
             }}
           >
             <h3
-              className="text-xl sm:text-2xl md:text-3xl font-bold mb-3"
+              className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 font-playfair"
               style={{ color: "#f8f1f8" }}
             >
               Ainda tem dúvidas?

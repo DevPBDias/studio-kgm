@@ -24,7 +24,7 @@ button {
   color: var(--primary);
   background: var(--terciary);
   font-weight: 700;
-  font-family: "Crimson Text", serif;
+  font-family: var(--font-crimson), serif;
   font-size: clamp(0.9rem, 4vw, 1.2rem);
   padding-inline: 0.8rem;
   padding-block: 0.4rem;
@@ -35,7 +35,7 @@ p,
 span,
 li,
 input {
-  font-family: "Crimson Text", serif;
+  font-family: var(--font-crimson), serif;
 }
 
 h1,
@@ -43,13 +43,13 @@ h2 {
   font-size: clamp(2.5rem, 4vw, 4rem);
   line-height: 1.2;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: var(--font-playfair), serif;
 }
 
 h3 {
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1.2;
-  font-family: "Crimson Text", serif;
+  font-family: var(--font-crimson), serif;
   font-weight: 700;
 }
 
@@ -57,7 +57,7 @@ h4,
 h5 {
   font-size: clamp(1.2rem, 2vw, 1.5rem);
   line-height: 1.2;
-  font-family: "Crimson Text", serif;
+  font-family: var(--font-crimson), serif;
   font-weight: 500;
 }
 

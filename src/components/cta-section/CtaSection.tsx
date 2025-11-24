@@ -26,7 +26,7 @@ export default function CTASection() {
         <ScrollReveal animation="fade-up">
           <div className="mb-12">
             <h2
-              className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight"
+              className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight font-playfair"
               style={{ color: "#f8f1f8" }}
             >
               Pronto para transformar sua{" "}
@@ -73,7 +73,7 @@ export default function CTASection() {
             >
               <div className="text-center">
                 <div
-                  className="text-3xl md:text-4xl font-bold mb-2"
+                  className="text-3xl md:text-4xl font-bold mb-2 font-playfair"
                   style={{ color: "#e0ff4f" }}
                 >
                   {stat.number}

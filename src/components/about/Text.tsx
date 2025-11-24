@@ -1,7 +1,7 @@
 const AboutText = () => {
   return (
     <div className="w-full flex flex-col md:flex-row justify-center items-center gap-9 lg:gap-24">
-      <p className="font-normal w-full">
+      <p className="font-normal w-full font-crimson">
         NA Agência KGM, acreditamos que grandes marcas não se constroem apenas
         com presença online. Elas se destacam pela experiência que proporcionam.
         <br />

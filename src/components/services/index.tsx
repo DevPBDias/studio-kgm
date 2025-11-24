@@ -26,7 +26,7 @@ const Services = () => {
             </div>
 
             <h2
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 font-playfair"
               style={{ color: "#f8f1f8" }}
             >
               Nossos <span style={{ color: "#e0ff4f" }}>Serviços</span>
@@ -65,7 +65,7 @@ const Services = () => {
 
                 <div className="relative h-full flex flex-col justify-end p-6 sm:p-8">
                   <h3
-                    className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-3 transition-colors duration-300 group-hover:opacity-100"
+                    className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-3 transition-colors duration-300 group-hover:opacity-100 font-playfair"
                     style={{ color: "#e0ff4f" }}
                   >
                     {service.name}

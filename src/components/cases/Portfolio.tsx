@@ -25,7 +25,7 @@ export default function PortfolioSection() {
               Portfólio
             </span>
             <h2
-              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight font-playfair"
               style={{ color: "#f8f1f8" }}
             >
               Projetos em <span style={{ color: "#e0ff4f" }}>Destaque</span>
@@ -78,7 +78,7 @@ export default function PortfolioSection() {
                     {project.category}
                   </span>
                   <h3
-                    className="text-2xl md:text-3xl font-bold mb-2 transition-colors"
+                    className="text-2xl md:text-3xl font-bold mb-2 transition-colors font-playfair"
                     style={{ color: "#f8f1f8" }}
                   >
                     {project.title}
