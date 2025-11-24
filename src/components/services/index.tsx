@@ -7,6 +7,7 @@ const Services = () => {
   return (
     <Container>
       <section
+        id="services"
         className="relative w-full py-10 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-8"
         style={{ backgroundColor: "#0d060c" }}
       >

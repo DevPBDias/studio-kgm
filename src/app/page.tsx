@@ -1,5 +1,9 @@
 import About from "@/components/about";
 import InfiniteSliderHorizontal from "@/components/cases/InfinityCards";
+import PortfolioSection from "@/components/cases/Portfolio";
+import CTASection from "@/components/cta-section/CtaSection";
+import DigitalPresenceSection from "@/components/digital-presence/DigitalPresence";
+import FAQSection from "@/components/faq/FaqSection";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Services from "@/components/services";
@@ -16,8 +20,12 @@ export default function Home() {
       <Hero />
       <InfiniteSliderHorizontal />
       <About />
+      <DigitalPresenceSection />
       <Services />
+      <PortfolioSection />
       <Testimonials />
+      <FAQSection />
+      <CTASection />
       <Footer />
     </main>
   );

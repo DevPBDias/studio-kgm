@@ -18,6 +18,7 @@ const Testimonials = () => {
   return (
     <Container>
       <section
+        id="testimonials"
         className="relative w-full py-24 md:py-32 px-4 overflow-hidden lg:mt-16"
         style={{ backgroundColor: "#0d060c" }}
       >
