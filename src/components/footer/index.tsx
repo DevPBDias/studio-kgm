@@ -79,17 +79,19 @@ export default function Footer() {
           <ScrollReveal animation="fade-right" delay={100}>
             <div className="lg:col-span-2">
               <h3
-                className="text-2xl font-bold mb-4"
+                className="text-2xl font-bold mb-4 font-playfair"
                 style={{ color: "#e0ff4f" }}
               >
-                DevPBDias Studio
+                KGM Studio
               </h3>
               <p
-                className="mb-6 leading-relaxed w-1/2"
-                style={{ color: "#f8f1f8", opacity: 0.7 }}
+                className="mb-6 leading-relaxed max-w-md text-base md:text-lg"
+                style={{ color: "#f8f1f8", opacity: 0.8 }}
               >
-                Transformamos ideias em experiências digitais incríveis. Seu
-                sucesso é nossa missão.
+                <strong>Agência digital em Palmas-TO</strong> especializada em
+                criação de sites profissionais, landing pages e SEO.
+                Transformamos ideias em experiências digitais que geram
+                resultados para empresas de todo o Brasil.
               </p>
               <div className="space-y-3">
                 <a
@@ -158,7 +160,8 @@ export default function Footer() {
               className="text-sm text-center md:text-left"
               style={{ color: "#f8f1f8", opacity: 0.6 }}
             >
-              © 2025 DevPBDias Studio. Todos os direitos reservados.
+              © 2025 KGM Studio - Agência Digital em Palmas-TO. Todos os
+              direitos reservados.
             </p>
 
             {/* Social Links */}

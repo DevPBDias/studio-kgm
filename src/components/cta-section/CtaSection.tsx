@@ -52,8 +52,12 @@ export default function CTASection() {
               className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed"
               style={{ color: "#f8f1f8", opacity: 0.7 }}
             >
-              Vamos criar algo incrível juntos. Entre em contato e descubra como
-              podemos elevar seu projeto para o próximo nível.
+              Atendemos empresas de{" "}
+              <strong style={{ color: "#e0ff4f" }}>
+                Palmas, Tocantins e todo o Brasil
+              </strong>
+              . Entre em contato e descubra como podemos elevar seu projeto
+              digital para o próximo nível.
             </p>
           </div>
         </ScrollReveal>

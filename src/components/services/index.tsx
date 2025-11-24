@@ -33,10 +33,15 @@ const Services = () => {
             </h2>
 
             <p
-              className="text-base sm:text-lg md:text-xl max-w-2xl mx-auto leading-relaxed"
+              className="text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed"
               style={{ color: "#f8f1f8", opacity: 0.8 }}
             >
-              Soluções digitais completas para transformar sua presença online
+              Soluções digitais completas para empresas de{" "}
+              <strong style={{ color: "#e0ff4f" }}>
+                Palmas-TO e todo o Brasil
+              </strong>
+              . Da criação de sites profissionais à otimização para Google,
+              transformamos sua presença online em resultados reais.
             </p>
           </div>
 

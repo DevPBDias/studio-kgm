@@ -52,9 +52,11 @@ export default function DigitalPresenceSection() {
               className="text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed text-pretty"
               style={{ color: "#f8f1f8", opacity: 0.8 }}
             >
-              No mundo digital de hoje, não ter um site é como não existir.
-              Descubra como uma presença online profissional pode transformar
-              seu negócio.
+              No mundo digital de hoje, não ter um site profissional é como não
+              existir. Empresas de{" "}
+              <strong style={{ color: "#e0ff4f" }}>Palmas e região</strong> que
+              investem em presença online estratégica conquistam mais clientes e
+              crescem mais rápido.
             </p>
           </div>
         </ScrollReveal>
