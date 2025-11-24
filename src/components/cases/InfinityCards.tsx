@@ -1,26 +1,8 @@
 import { InfiniteSlider } from "@/components/ui/infinite-slider";
-import ole from "@/assets/cases/ole.png";
-import max from "@/assets/cases/max.png";
-import personal from "@/assets/cases/Personal.png";
-import ftbWebsite from "@/assets/cases/ftb-principal.png";
-import pomodoro from "@/assets/cases/angular-todo-pomodoro.png";
-import trybetunes from "@/assets/cases/trybetunes.jpg";
-import indiApp from "@/assets/cases/Nelore-App.png";
-import Magick from "@/assets/cases/Magick.png";
+import { imageCards } from "@/constants/sliderImages";
 import Image from "next/image";
 
 export default function InfiniteSliderHorizontal() {
-  const imageCards = [
-    ole,
-    max,
-    personal,
-    pomodoro,
-    indiApp,
-    trybetunes,
-    ftbWebsite,
-    Magick,
-  ];
-
   return (
     <div className="absolute top-[90dvh] left-1/2 -translate-x-1/2 z-10 pb-4">
       <InfiniteSlider gap={32} speed={40} className="py-4">
