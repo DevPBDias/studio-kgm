@@ -11,6 +11,7 @@ type TestimonialProps = {
   designation: string;
   src: StaticImageData;
 };
+
 export const AnimatedTestimonials = ({
   testimonials,
   autoplay = false,
