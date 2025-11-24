@@ -20,7 +20,7 @@ const HeroText = () => {
           </h5>
         </div>
         <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-6">
-          <MagicBtn title="Quero agora!" link="" />
+          <MagicBtn title="Quero agora!" link="https://w.app/2rdmwc" />
           <MagicBtn
             title="Explorar site"
             link="#about"

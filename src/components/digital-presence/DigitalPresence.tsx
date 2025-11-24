@@ -73,7 +73,7 @@ export default function DigitalPresenceSection() {
               >
                 <div
                   className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 font-playfair"
- style={{ color: "#e0ff4f" }}
+                  style={{ color: "#e0ff4f" }}
                 >
                   {stat.number}
                 </div>
@@ -163,7 +163,11 @@ export default function DigitalPresenceSection() {
               Não deixe sua empresa ficar para trás. Invista em uma presença
               online profissional e colha os resultados.
             </p>
-            <MagicBtn title="Agende consulta" icon={<ArrowUpRight />} />
+            <MagicBtn
+              title="Agende consulta"
+              icon={<ArrowUpRight />}
+              link="https://w.app/2rdmwc"
+            />
           </div>
         </ScrollReveal>
       </div>

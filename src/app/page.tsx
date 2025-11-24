@@ -1,4 +1,5 @@
 import About from "@/components/about";
+import WhatsappBtn from "@/components/buttons/WhatsappBtn";
 import InfiniteSliderHorizontal from "@/components/cases/InfinityCards";
 import PortfolioSection from "@/components/cases/Portfolio";
 import CTASection from "@/components/cta-section/CtaSection";
@@ -17,6 +18,7 @@ export default function Home() {
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto">
       <MobileMenu />
       <FloatingNav className="hidden md:flex" navItems={navLinks} />
+      <WhatsappBtn />
       <Hero />
       <InfiniteSliderHorizontal />
       <About />

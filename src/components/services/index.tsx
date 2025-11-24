@@ -87,7 +87,7 @@ const Services = () => {
           </div>
         </div>
         <div className="flex justify-center mt-10">
-          <MagicBtn title="Quero agora!" link="" />
+          <MagicBtn title="Quero agora!" link="https://w.app/2rdmwc" />
         </div>
       </section>
     </Container>

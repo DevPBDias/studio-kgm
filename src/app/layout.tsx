@@ -21,12 +21,20 @@ const crimson = Crimson_Text({
 
 export const metadata: Metadata = {
   title: "KGM Studio - Presença Digital de Alto Nível",
-  description: "Sites com design sofisticado e moderno que não apenas impressionam, mas também impulsionam seus resultados e fortalecem sua marca.",
-  keywords: ["web design", "desenvolvimento web", "design moderno", "agência digital", "sites profissionais"],
+  description:
+    "Sites com design sofisticado e moderno que não apenas impressionam, mas também impulsionam seus resultados e fortalecem sua marca.",
+  keywords: [
+    "web design",
+    "desenvolvimento web",
+    "design moderno",
+    "agência digital",
+    "sites profissionais",
+  ],
   authors: [{ name: "KGM Studio" }],
   openGraph: {
     title: "KGM Studio - Presença Digital de Alto Nível",
-    description: "Sites com design sofisticado e moderno que impulsionam seus resultados.",
+    description:
+      "Sites com design sofisticado e moderno que impulsionam seus resultados.",
     type: "website",
     locale: "pt_BR",
   },

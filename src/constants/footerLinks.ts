@@ -1,9 +1,7 @@
-import { Github, Instagram, Linkedin } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 export const socialLinks = [
   { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Github, href: "https://github.com", label: "GitHub" },
 ];
 
 export const footerLinks = {

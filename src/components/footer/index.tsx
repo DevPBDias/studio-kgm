@@ -67,7 +67,7 @@ export default function Footer() {
                 title="Vamos conversar?"
                 icon={<ArrowUpRight className="w-5 h-5" />}
                 position="right"
-                link="mailto:contato@studio.com"
+                link="https://w.app/2rdmwc"
               />
             </div>
           </div>
