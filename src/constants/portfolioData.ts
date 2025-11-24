@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
-import ftbImage from "@/assets/cases/Ftb-principal.png";
-import oleImage from "@/assets/cases/ole.png";
+import ftbImage from "@/assets/cases/ftbwebsite.png";
+import oleImage from "@/assets/cases/olemidia.png";
 
 export interface Project {
   id: number;
