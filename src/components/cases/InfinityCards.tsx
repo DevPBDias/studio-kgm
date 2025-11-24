@@ -4,8 +4,8 @@ import max from "@/assets/cases/max.png";
 import personal from "@/assets/cases/Personal.png";
 import ftbWebsite from "@/assets/cases/Ftb-principal.png";
 import pomodoro from "@/assets/cases/angular-todo-pomodoro.png";
-import Trybetunes from "@/assets/cases/Trybetunes.jpg";
-import indiApp from "@/assets/cases/Nelore App.png";
+import trybetunes from "@/assets/cases/trybetunes.jpg";
+import indiApp from "@/assets/cases/Nelore-App.png";
 import Magick from "@/assets/cases/Magick.png";
 import Image from "next/image";
 
@@ -16,7 +16,7 @@ export default function InfiniteSliderHorizontal() {
     personal,
     pomodoro,
     indiApp,
-    Trybetunes,
+    trybetunes,
     ftbWebsite,
     Magick,
   ];
@@ -30,7 +30,7 @@ export default function InfiniteSliderHorizontal() {
             className="flex items-center justify-center rounded-xl overflow-hidden shadow-lg w-[380px] h-[220px] lg:w-[480px] lg:h-[320px]"
           >
             <Image
-              src={project.src || "/placeholder.svg"}
+              src={project}
               alt={project.src}
               width={380}
               height={220}
