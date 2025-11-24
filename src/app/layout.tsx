@@ -20,27 +20,46 @@ const crimson = Crimson_Text({
 });
 
 export const metadata: Metadata = {
-  title: "KGM Studio - Presença Digital de Alto Nível",
+  title:
+    "KGM Studio - Criação de Sites Profissionais em Palmas e para Todo o Brasil",
   description:
-    "Sites com design sofisticado e moderno que não apenas impressionam, mas também impulsionam seus resultados e fortalecem sua marca.",
+    "KGM Studio é especialista em criar sites modernos, rápidos e otimizados para empresas de Palmas e de todo o Brasil. Web design, landing pages, SEO e presença digital completa para fortalecer marcas e atrair clientes.",
   keywords: [
-    "web design",
-    "desenvolvimento web",
-    "design moderno",
-    "agência digital",
-    "sites profissionais",
+    "criação de sites em Palmas",
+    "sites profissionais Palmas",
+    "web design Palmas",
+    "desenvolvimento web Palmas",
+    "agência digital Palmas",
+    "landing pages de alta conversão",
+    "SEO Palmas",
+    "designer Palmas",
+    "criação de site profissional",
+    "empresa de sites Palmas",
+    "sites para empresas",
+    "web design moderno",
+    "presença digital Palmas",
+    "sites profissionais no Brasil",
+    "agência digital Brasil",
+    "KGM Studio",
+    "studiokgm",
   ],
   authors: [{ name: "KGM Studio" }],
   openGraph: {
-    title: "KGM Studio - Presença Digital de Alto Nível",
+    title:
+      "KGM Studio - Sites Profissionais, Web Design Moderno e SEO em Palmas",
     description:
-      "Sites com design sofisticado e moderno que impulsionam seus resultados.",
+      "Sites modernos, velozes e otimizados para empresas que desejam crescer no digital. Web design estratégico, SEO local e soluções personalizadas para negócios de Palmas e de todo o Brasil.",
+    url: "https://studiokgm.com.br",
+    siteName: "KGM Studio",
     type: "website",
     locale: "pt_BR",
   },
   robots: {
     index: true,
     follow: true,
+  },
+  alternates: {
+    canonical: "https://studiokgm.com.br",
   },
 };
 
