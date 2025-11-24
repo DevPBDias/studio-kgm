@@ -31,7 +31,7 @@ export default function InfiniteSliderHorizontal() {
           >
             <Image
               src={project}
-              alt={project.src}
+              alt={`project-${i}`}
               width={380}
               height={220}
               className="object-cover w-full h-full"
