@@ -65,10 +65,10 @@ export default function CTASection() {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16 max-w-4xl mx-auto">
           {[
-            { number: "50+", label: "Projetos Entregues" },
+            { number: "8+", label: "Projetos Entregues" },
             { number: "100%", label: "Satisfação" },
             { number: "24/7", label: "Suporte" },
-            { number: "5+", label: "Anos de Experiência" },
+            { number: "2+", label: "Anos de Experiência" },
           ].map((stat, index) => (
             <ScrollReveal
               key={index}

@@ -48,7 +48,7 @@ export default function PortfolioSection() {
               animation={index % 2 === 0 ? "fade-right" : "fade-left"}
               delay={index * 150}
             >
-              <div className="group relative rounded-2xl overflow-hidden transition-all duration-300 hover:scale-[1.02]">
+              <div className="group relative rounded-2xl overflow-hidden border border-[#e0ff4f]/20 transition-all duration-300 hover:scale-[1.02]">
                 {/* Project Image */}
                 <div className="relative h-64 md:h-80 overflow-hidden">
                   <Image
@@ -57,13 +57,7 @@ export default function PortfolioSection() {
                     fill
                     className="object-cover object-top group-hover:scale-110 transition-transform duration-500 w-full h-full"
                   />
-                  <div
-                    className="absolute inset-0 opacity-60 group-hover:opacity-80 transition-opacity"
-                    style={{
-                      background:
-                        "linear-gradient(to top, #0d060c 0%, rgba(13, 6, 12, 0.5) 50%, transparent 100%)",
-                    }}
-                  />
+                  <div className="absolute inset-0 bg-[#0d060c]/75 group-hover:opacity-40 transition-opacity" />
                 </div>
 
                 {/* Project Info */}

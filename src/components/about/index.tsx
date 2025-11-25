@@ -33,53 +33,6 @@ export default function AboutSection() {
 
             <Title />
             <AboutText />
-
-            <div className="pt-4">
-              <div className="grid grid-cols-3 gap-4 sm:gap-6">
-                <div className="text-center">
-                  <div
-                    className="text-3xl sm:text-4xl font-bold mb-2 font-playfair"
-                    style={{ color: "#e0ff4f" }}
-                  >
-                    500+
-                  </div>
-                  <div
-                    className="text-xs sm:text-sm"
-                    style={{ color: "#f8f1f8", opacity: 0.7 }}
-                  >
-                    Projetos
-                  </div>
-                </div>
-                <div className="text-center">
-                  <div
-                    className="text-3xl sm:text-4xl font-bold mb-2 font-playfair"
-                    style={{ color: "#e0ff4f" }}
-                  >
-                    50+
-                  </div>
-                  <div
-                    className="text-xs sm:text-sm"
-                    style={{ color: "#f8f1f8", opacity: 0.7 }}
-                  >
-                    Clientes
-                  </div>
-                </div>
-                <div className="text-center">
-                  <div
-                    className="text-3xl sm:text-4xl font-bold mb-2 font-playfair"
-                    style={{ color: "#e0ff4f" }}
-                  >
-                    10+
-                  </div>
-                  <div
-                    className="text-xs sm:text-sm"
-                    style={{ color: "#f8f1f8", opacity: 0.7 }}
-                  >
-                    Anos
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="space-y-4 sm:space-y-6">

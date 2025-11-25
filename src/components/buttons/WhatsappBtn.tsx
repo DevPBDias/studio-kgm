@@ -5,8 +5,7 @@ import Image from "next/image";
 const WhatsappBtn = () => {
   return (
     <Link
-      aria-label="Fale com o KGM Studio em Palmas pelo WhatsApp"
-      className="cursor-pointer fixed z-[9999] bottom-6 right-6 flex items-center justify-center hover:scale-110 transition-all duration-300"
+      className="flex items-center justify-center fixed bottom-6 right-6 z-50 hover:scale-110 rounded-full shadow-lg hover:shadow-xl transition-shadow"
       href="https://w.app/2rdmwc"
     >
       <Image src={whatsapp} alt="whatsapp" width={40} height={40} />
