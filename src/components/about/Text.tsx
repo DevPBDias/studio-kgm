@@ -18,7 +18,7 @@ const AboutText = () => {
         style={{ color: "#f8f1f8", opacity: 0.9 }}
       >
         Com mais de{" "}
-        <strong style={{ color: "#e0ff4f" }}>10 anos de experiência</strong> no
+        <strong style={{ color: "#e0ff4f" }}>2 anos de experiência</strong> no
         mercado digital, criamos
         <strong>
           {" "}
@@ -61,7 +61,6 @@ const AboutText = () => {
         className="font-normal w-full font-crimson text-base md:text-lg leading-relaxed"
         style={{ color: "#f8f1f8", opacity: 0.9 }}
       >
-        🚀{" "}
         <strong>
           Se você busca mais do que um site simples—busca impacto real,
           crescimento e resultados comprovados
