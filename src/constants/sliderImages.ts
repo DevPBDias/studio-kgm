@@ -6,6 +6,8 @@ import pomodoro from "@/assets/cases/angular-todo-pomodoro.png";
 import trybetunes from "@/assets/cases/trybetunes.png";
 import indiApp from "@/assets/cases/Nelore-App.png";
 import Magick from "@/assets/cases/Magick.png";
+import tripImg from "@/assets/cases/trip-agency.png";
+import petshopImg from "@/assets/cases/pet-shop.png";
 
 export const imageCards = [
   ole,
@@ -16,4 +18,6 @@ export const imageCards = [
   trybetunes,
   ftbWebsite,
   Magick,
+  tripImg,
+  petshopImg,
 ];
